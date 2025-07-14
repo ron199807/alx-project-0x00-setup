@@ -6,6 +6,7 @@ const Button: React.FC<ButtonProps> = ({
   size = 'medium',
   shape = 'md',
   variant = 'primary',
+  styles = '',
   className = '',
   onClick,
 }) => {
@@ -35,7 +36,8 @@ const Button: React.FC<ButtonProps> = ({
       className={`font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 
         ${sizeClasses[size]} 
         ${shapeClasses[shape]} 
-        ${variantClasses[variant]} 
+        ${variantClasses[variant]}
+        ${styles} 
         ${className}`}
       onClick={onClick}
     >
