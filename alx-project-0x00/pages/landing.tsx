@@ -47,6 +47,26 @@ const Landing: React.FC = () => {
             />
           </div>
         </section>
+
+                <section className="pt-8">
+          <h2 className="text-xl font-semibold mb-4">Visual Tests</h2>
+          <div className="space-y-4">
+            <div className="p-4 bg-gray-100 rounded-sm">
+              <Button title="In rounded-sm container" shape="sm" variant="outline" styles="" />
+              <p className="mt-2 text-sm">Should match container's sharp corners</p>
+            </div>
+            
+            <div className="p-4 bg-gray-100 rounded-md">
+              <Button title="In rounded-md container" shape="md" variant="outline" styles="" />
+              <p className="mt-2 text-sm">Should match container's medium rounding</p>
+            </div>
+            
+            <div className="p-4 bg-gray-100 rounded-full w-fit">
+              <Button title="Pill" shape="full" variant="outline" styles="" />
+              <p className="mt-2 text-sm">Should be fully rounded</p>
+            </div>
+          </div>
+        </section>
         </div>
 
         
