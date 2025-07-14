@@ -21,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({
   const shapeClasses = {
     sm: 'rounded-sm',
     md: 'rounded-md',
-    full: 'rounded-full',
+    full: 'rounded-lg',
   };
 
   // Variant classes

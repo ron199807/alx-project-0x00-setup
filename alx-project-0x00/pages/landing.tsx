@@ -48,7 +48,7 @@ const Landing: React.FC = () => {
           </div>
         </section>
 
-                <section className="pt-8">
+        <section className="pt-8">
           <h2 className="text-xl font-semibold mb-4">Visual Tests</h2>
           <div className="space-y-4">
             <div className="p-4 bg-gray-100 rounded-sm">
@@ -62,7 +62,7 @@ const Landing: React.FC = () => {
             </div>
             
             <div className="p-4 bg-gray-100 rounded-full w-fit">
-              <Button title="Pill" shape="full" variant="outline" styles="" />
+              <Button title="rounded-lg container" shape="full" variant="outline" styles="" />
               <p className="mt-2 text-sm">Should be fully rounded</p>
             </div>
           </div>
