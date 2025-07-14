@@ -1,6 +1,4 @@
-interface PillProps {
-    title: string;
-}
+import { PillProps } from "@/interfaces/index";
 
 const Pill: React.FC<PillProps> = ({ title }) => {
     return (
