@@ -10,9 +10,9 @@ const Landing: React.FC = () => {
         <section>
         <h2 className="text-xl font-semibold mb-4">Sizes</h2>
           <div className="flex items-center gap-4">
-            <Button title="Small" size="small" />
-            <Button title="Medium" size="medium" />
-            <Button title="Large" size="large" />
+            <Button title="Small" size="small" styles="" />
+            <Button title="Medium" size="medium" styles="" />
+            <Button title="Large" size="large" styles="" />
           </div>
         </section>
 
@@ -20,9 +20,9 @@ const Landing: React.FC = () => {
         <section>
           <h2 className="text-xl font-semibold mb-4">Shapes</h2>
           <div className="flex items-center gap-4">
-            <Button title="Rounded Small" shape="sm" />
-            <Button title="Rounded Medium" shape="md" />
-            <Button title="Pill" shape="full" />
+            <Button title="Rounded Small" shape="sm" styles="" />
+            <Button title="Rounded Medium" shape="md" styles="" />
+            <Button title="Pill" shape="full" styles="" />
           </div>
         </section>
 
@@ -30,20 +30,20 @@ const Landing: React.FC = () => {
         <section>
           <h2 className="text-xl font-semibold mb-4">Variants</h2>
           <div className="flex items-center gap-4">
-            <Button title="Primary" variant="primary" />
-            <Button title="Secondary" variant="secondary" />
-            <Button title="Outline" variant="outline" />
+            <Button title="Primary" variant="primary" styles="" />
+            <Button title="Secondary" variant="secondary" styles="" />
+            <Button title="Outline" variant="outline" styles="" />
           </div>
         </section>
 
          <section>
           <h2 className="text-xl font-semibold mb-4">Combinations</h2>
           <div className="flex flex-wrap items-center gap-4">
-            <Button title="Large Pill" size="large" shape="full" variant="primary" />
-            <Button title="Small Outline" size="small" variant="outline" />
+            <Button title="Large Pill" size="large" shape="full" variant="primary"  styles="" />
+            <Button title="Small Outline" size="small" variant="outline"  styles="" />
             <Button 
               title="Custom Class" 
-              className="bg-purple-600 hover:bg-purple-700 text-white" 
+              className="bg-purple-600 hover:bg-purple-700 text-white" styles="" 
             />
           </div>
         </section>

@@ -7,7 +7,7 @@ export interface ButtonProps {
   size?: 'small' | 'medium' | 'large';
   shape?: 'sm' | 'md' | 'full';
   variant?: 'primary' | 'secondary' | 'outline';
-  styles?: string;
+  styles: string;
   className?: string;
   onClick?: () => void;
 }
