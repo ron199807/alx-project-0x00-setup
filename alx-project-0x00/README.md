@@ -1,10 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# ALX Project 0x00
+
+A modern Airbnb-inspired application clone built with [Next.js](https://nextjs.org), React 19, and Tailwind CSS 4.
+
+## Features
+
+- ⚡️ Fast, modern UI with React 19 and Next.js 15
+- 🎨 Customizable, reusable UI components (Button, Card, Pill)
+- 💅 Styled with Tailwind CSS 4 for rapid development
+- 🗂️ TypeScript for type safety and maintainability
+- 📦 Ready-to-use API route example
+- 🌗 Responsive and accessible design
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) or [pnpm](https://pnpm.io/) or [bun](https://bun.sh/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/alx-project-0x00.git
+   cd alx-project-0x00
+   ```
+
+2. Install dependencies:
+
+   ```sh
+   npm install
+   # or
+   yarn
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+### Running the Development Server
+
+```sh
 npm run dev
 # or
 yarn dev
@@ -14,27 +51,42 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+alx-project-0x00/
+├── components/      # Reusable UI components
+├── interfaces/      # TypeScript interfaces
+├── pages/           # Next.js pages and API routes
+├── public/          # Static assets
+├── styles/          # Global and component styles
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── ...
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `dev` – Start the development server
+- `build` – Build for production
+- `start` – Start the production server
+- `lint` – Run ESLint
+
+## Customization
+
+- Edit UI components in [`components/`](components/)
+- Add or modify API routes in [`pages/api/`](pages/api/)
+- Update global styles in [`styles/globals.css`](styles/globals.css)
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs)
+- [React Documentation](https://react.dev/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+This project is licensed under the MIT
